@@ -1,9 +1,9 @@
-# 📘 Brain Tumor Detection with YOLOv8  
+#  Brain Tumor Detection with YOLOv8  
 _Object Detection on MRI Images using Ultralytics YOLOv8_
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 This project applies **YOLOv8** to detect and localize **brain tumors** in MRI images.  
 It uses the Kaggle dataset *"Medical Image Dataset: Brain Tumor Detection"* and demonstrates:
@@ -18,7 +18,7 @@ The goal is to provide a clean, practical template for medical-image object dete
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 brain-tumor-yolov8/
@@ -43,7 +43,7 @@ The dataset and large YOLO `runs/` directory are excluded from the repo to keep 
 ---
 
 
-### 🔍 Example Predictions
+###  Example Predictions
 
 Detection examples are included under:
 
@@ -53,19 +53,19 @@ results/sample_predictions/
 
 ---
 
-## 📥 Dataset
+##  Dataset
 
 **Dataset:**  
 Medical Image Dataset: Brain Tumor Detection (Kaggle)  
 https://www.kaggle.com/code/pkdarabi/brain-tumor-detection-with-yolov8
 
-🔒 *The dataset is not included due to licensing restrictions.*
+ *The dataset is not included due to licensing restrictions.*
 
 
 
 ---
 
-## 🏋️ Training the Model
+##  Training the Model
 
 Training is done inside the notebook:
 
@@ -100,7 +100,7 @@ Training results (best model, loss curves, predictions) will be created locally 
 
 ---
 
-## 🔮 Running Inference
+##  Running Inference
 
 After training:
 
@@ -123,7 +123,7 @@ runs/detect/predict/
 ---
 
 
-## 💡 Notes & Tips
+##  Notes & Tips
 
 - If your GPU has limited VRAM (6GB or less), use:
   - `yolov8n.pt` or `yolov8s.pt`
@@ -135,7 +135,7 @@ runs/detect/predict/
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - **Dataset:** Kaggle — Medical Image Dataset: Brain Tumor Detection  
 - **Model:** Ultralytics YOLOv8  
